@@ -49,7 +49,7 @@
                    with font-awesome or any other icon font library -->
               <li class="nav-item menu-open">
                 <a href="#" class="nav-link active">
-                  <i class="nav-icon far fa-circle"></i>
+                  <i class="nav-icon fas fa-home"></i>
                   <p>
                     Dashboard
                   </p>
@@ -57,31 +57,15 @@
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
-                    <i></i>
-                  <p>
-                    Data Identitas
-                  </p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                    <i class="nav-icon far fa-circle"></i>
+                    <i class="nav-icon fas fa-user-edit"></i>
                   <p>
                     Identitas Pengusul
                   </p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
-                    <i class="nav-icon far fa-circle"></i>
-                  <p>
-                    Indikator Kinerja Utama
-                  </p>
-                </a>
-              </li>
-              <li class="nav-item">
                 <a href="pages/widgets.html" class="nav-link">
-                    <i class="fa-solid fa-landmark"></i>
+                    <i class="nav-icon fa-solid fa-landmark"></i>
                   <p>
                     Tata Pamong, Tata Kelola, dan Kerjasama
                   </p>
@@ -89,7 +73,7 @@
               </li>
               <li class="nav-item">
                 <a href="pages/widgets.html" class="nav-link">
-                    <i class="fa-regular fa-address-card"></i></i>
+                    <i class="nav-icon fa-regular fa-address-card"></i></i>
                   <p>
                     Mahasiswa
                   </p>
@@ -97,22 +81,22 @@
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
-                  <i class="nav-icon fas fa-copy"></i>
+                  <i class="nav-icon fas fa-user-friends"></i>
                   <p>
                     Sumber Daya Manusia
                     <i class="fas fa-angle-left right"></i>
                   </p>
                 </a>
-                <ul class="nav nav-treeview">
+                <ul class="nav nav-treeview ml-3">
                   <li class="nav-item">
                     <a href="pages/layout/top-nav.html" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
+                      <i class="nav-icon far fa-circle"></i>
                       <p>Profil Dosen</p>
                     </a>
                   </li>
                   <li class="nav-item">
                     <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
+                      <i class="nav-icon far fa-circle"></i>
                       <p>Kinerja Dosen</p>
                     </a>
                   </li>
@@ -120,7 +104,7 @@
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
-                    <i class="fa-solid fa-circle-dollar-to-slot"></i>
+                    <i class="nav-icon fa-solid fa-circle-dollar-to-slot"></i>
                   <p>
                     Keuangan, Sarana, dan Prasarana
                   </p>
@@ -128,7 +112,7 @@
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
-                    <i class="nav-icon far fa-circle"></i>
+                    <i class="nav-icon fas fa-user-graduate"></i>
                   <p>
                     Pendidikan
                   </p>
@@ -136,7 +120,7 @@
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
-                    <i class="nav-icon far fa-circle"></i>
+                    <i class="nav-icon fas fa-search-location"></i>
                   <p>
                     Penelitian
                   </p>
@@ -144,7 +128,7 @@
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
-                    <i class="nav-icon far fa-circle"></i>
+                    <i class="nav-icon fas fa-people-carry"></i>
                   <p>
                     Pengabdian Kepada Masyarakat (PKM)
                   </p>
@@ -152,7 +136,7 @@
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
-                    <i class="nav-icon far fa-circle"></i>
+                    <i class="nav-icon fas fa-users"></i>
                   <p>
                     Luaran dan Capaian Tridharma
                   </p>
@@ -160,15 +144,7 @@
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
-                    <i class="nav-icon far fa-circle"></i>
-                  <p>
-                    Matriks Penilaian
-                  </p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                    <i class="nav-icon far fa-circle"></i>
+                    <i class="nav-icon fas fa-stream"></i>
                   <p>
                     Matrik Penilaian Akreditasi
                   </p>
