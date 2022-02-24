@@ -1,3 +1,4 @@
+@extends('partials/sidebar')
 @extends('layouts.main')
 
 @section('content')
