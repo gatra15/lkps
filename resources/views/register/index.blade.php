@@ -10,12 +10,21 @@
         </div>
         <div class="row justify-content-center">
             <div class="col-md-7 col-lg-5">
-                <div class="login-wrap p-4 p-md-5">
-              <h3 class="text-center mb-4">Sign In</h3>
+                <div class="login-wrap p-4 p-md-9">
+              <h3 class="text-center mb-4">Registration Here</h3>
                     <form action="#" class="login-form">
+                  <div class="form-group">
+                      <input type="text" class="form-control rounded-left" placeholder="Name" required>
+                  </div>
                   <div class="form-group">
                       <input type="text" class="form-control rounded-left" placeholder="Username" required>
                   </div>
+                  <div class="form-group">
+                      <input type="text" class="form-control rounded-left" placeholder="Email" required>
+                  </div>
+            <div class="form-group d-flex">
+              <input type="password" class="form-control rounded-left" placeholder="Password" required>
+            </div>
             <div class="form-group d-flex">
               <input type="password" class="form-control rounded-left" placeholder="Password" required>
             </div>
@@ -34,10 +43,7 @@
                             </div>
                    
             </div>
-            <div class="text-md-right">
-                <small>Have an account? <a class="text-primary"> Sing Up </a></small>
-            </div>
-            
+                <small class="d-block-text text-center">Have an account? <a class="text-primary"> Sing Up </a></small>    
           </form>
           
         </div>
