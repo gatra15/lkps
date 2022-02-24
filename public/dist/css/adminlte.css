@@ -68674,6 +68674,7 @@ a.text-muted:hover {
 }
 /*# sourceMappingURL=adminlte.css.map */
 
-nav.nav-treeview {
-    padding-left: 1em !important;
+span {
+  width: 100px;
+  display: inline-block;
 }
