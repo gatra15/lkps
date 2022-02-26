@@ -8,6 +8,8 @@ class PendidikanController extends Controller
 {
     public function index()
     {
-        return view('tab.pendidikan');
+        return view('tab.pendidikan', [
+            'title' => 'Pendidikan'
+        ]);
     }
 }

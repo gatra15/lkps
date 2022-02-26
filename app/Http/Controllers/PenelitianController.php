@@ -8,6 +8,8 @@ class PenelitianController extends Controller
 {
     public function index()
     {
-        return view('tab.penelitian');
+        return view('tab.penelitian', [
+            'title' => 'Penelitian'
+        ]);
     }
 }

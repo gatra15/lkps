@@ -8,6 +8,8 @@ class ProfilDosenController extends Controller
 {
     public function index()
     {
-        return view('tab.profilDosen');
+        return view('tab.profilDosen', [
+            'title' => 'Profil Dosen'
+        ]);
     }
 }

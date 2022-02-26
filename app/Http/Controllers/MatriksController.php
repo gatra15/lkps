@@ -8,6 +8,8 @@ class MatriksController extends Controller
 {
     public function index()
     {
-        return view('tab.matrik');
+        return view('tab.matrik', [
+            'title' => 'Matrik'
+        ]);
     }
 }

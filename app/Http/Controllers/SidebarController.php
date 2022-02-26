@@ -7,7 +7,9 @@ use Illuminate\Http\Request;
 class SidebarController extends Controller
 {
     public function home(){
-        return view('home');
+        return view('home', [
+            'title' => 'Home'
+        ]);
     }
     public function identitas(){
         return view('tab.identitasPengusul');

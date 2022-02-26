@@ -8,6 +8,8 @@ class SdmController extends Controller
 {
     public function index()
     {
-        return view('tab.sdm');
+        return view('tab.sdm', [
+            'title' => 'Sdm'
+        ]);
     }
 }

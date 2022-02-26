@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Controllers\Controller;
 use App\Http\Controllers\IdentitasPengusulController;
 use App\Http\Controllers\KeuanganSaranaPrasaranaController;
 use App\Http\Controllers\KinerjaDosenController;
@@ -33,17 +32,17 @@ use App\Http\Controllers\TataPamongController;
 
 Route::get('/', [LoginController::class, 'index']);
 Route::get('/home', [SidebarController::class, 'home']);
-Route::get('/identitas-pengusul', [SidebarController::class, 'identitas']);
-Route::get('/tata-pamong-tata-kelola-kerjasama', [SidebarController::class, 'tataPamong']);
-Route::get('/mahasiswa', [SidebarController::class, 'mahasiswa']);
-Route::get('/sdm', [SidebarController::class, 'sdm']);
-Route::get('/profil-dosen', [SidebarController::class, 'profilDosen']);
-Route::get('/kinerja-dosen', [SidebarController::class, 'kinerjaDosen']);
-Route::get('/keuangan-sarana-prasarana', [Controller::class, 'keuangan']);
-Route::get('/pendidikan', [SidebarController::class, 'pendidikan']);
-Route::get('/penelitian', [SidebarController::class, 'penelitian']);
-Route::get('/pkm', [SidebarController::class, 'pkm']);
-Route::get('/luaran-capaian-tridharma', [SidebarController::class, 'luaran']);
-Route::get('/matrik', [SidebarController::class, 'matrik']);
 
 Route::get('/register',                             [RegisterController::class, 'index']);
+Route::get('/identitas-pengusul',                   [IdentitasPengusulController::class, 'index']);
+Route::get('/tata-pamong-tata-kelola-kerjasama',    [TataPamongController::class, 'index']);
+Route::get('/mahasiswa',                            [MahasiswaController::class, 'index']);
+Route::get('/sdm',                                  [SdmController::class, 'index']);
+Route::get('/profil-dosen',                         [ProfilDosenController::class, 'index']);
+Route::get('/kinerja-dosen',                        [KinerjaDosenController::class, 'index']);
+Route::get('/keuangan-sarana-prasarana',            [KeuanganSaranaPrasaranaController::class, 'index']);
+Route::get('/pendidikan',                           [PendidikanController::class, 'index']);
+Route::get('/penelitian',                           [PenelitianController::class, 'index']);
+Route::get('/pkm',                                  [PengabdianController::class, 'index']);
+Route::get('/luaran-capaian-tridharma',             [LuaranController::class, 'index']);
+Route::get('/matrik',                               [MatriksController::class, 'index']);

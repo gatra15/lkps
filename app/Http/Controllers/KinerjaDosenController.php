@@ -8,6 +8,8 @@ class KinerjaDosenController extends Controller
 {
     public function index()
     {
-        return view('tab.kinerjaDosen');
+        return view('tab.kinerjaDosen', [
+            'title' => 'Kinerja Dosen'
+        ]);
     }
 }

@@ -8,6 +8,8 @@ class IdentitasPengusulController extends Controller
 {
     public function index()
     {
-        return view('tab.identitasPengusul');
+        return view('tab.identitasPengusul', [
+            'title' => 'Identitas Pengusul'
+        ]);
     }
 }

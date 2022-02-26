@@ -8,6 +8,8 @@ class LuaranController extends Controller
 {
     public function index()
     {
-        return view('tab.luaran');
+        return view('tab.luaran', [
+            'title' => 'Luaran'
+        ]);
     }
 }

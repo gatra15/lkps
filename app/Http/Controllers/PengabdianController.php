@@ -8,6 +8,8 @@ class PengabdianController extends Controller
 {
     public function index()
     {
-        return view('tab.pkm');
+        return view('tab.pkm', [
+            'title' => 'Pkm'
+        ]);
     }
 }
