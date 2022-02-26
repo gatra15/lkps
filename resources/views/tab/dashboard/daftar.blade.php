@@ -1,7 +1,3 @@
-@extends('partials/sidebar')
-@extends('layouts.main')
-
-@section('content')
 <div class="content-header">
     <div class="container-fluid">
         <h2>DASHBOARD</h2>
@@ -51,4 +47,3 @@
 </div>
 
 </div>
-@endsection

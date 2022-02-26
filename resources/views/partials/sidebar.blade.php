@@ -30,7 +30,7 @@
             <!-- Brand Logo -->
             <a href="/" class="brand-link">
               <img src="{{ asset('dist/img/AdminLTELogo.png') }}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-              <span class="brand-text font-weight-light">LKPS</span>
+              <span class="brand-text font-weight-light">S I A P S - F T</span>
             </a>
     
         <!-- Sidebar -->
@@ -153,7 +153,7 @@
                 <a href="/matrik" class="nav-link {{ ($title === "Matrik") ? 'active' : '' }}">
                     <i class="nav-icon fas fa-stream"></i>
                   <p>
-                    Matrik Penilaian Akreditasi
+                    Simulasi Penilaian
                   </p>
                 </a>
               </li>
