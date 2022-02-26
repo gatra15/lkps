@@ -30,7 +30,7 @@ use App\Http\Controllers\TataPamongController;
 
 
 
-Route::get('/', [LoginController::class, 'index']);
+Route::get('/login', [LoginController::class, 'index']);
 Route::get('/home', [SidebarController::class, 'home']);
 
 Route::get('/register',                             [RegisterController::class, 'index']);
