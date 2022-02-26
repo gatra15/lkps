@@ -16,7 +16,7 @@
             <li class="nav-item">
               <form action="/logout" method="post"> 
                   @csrf
-                <a type="submit" class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-sign-out-alt"></i> Logout </a>
+                  <button type="submit" class="form-control btn btn-secondary rounded submit px-3">Logout</button>
               </form>
               
             </li>       
