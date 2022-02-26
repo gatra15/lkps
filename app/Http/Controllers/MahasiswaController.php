@@ -15,7 +15,10 @@ class MahasiswaController extends Controller
      */
     public function index()
     {
-        //
+        return view('tab.mahasiswa', [
+            'title' => 'Mahasiswa',
+        ]);
+
     }
 
     /**
