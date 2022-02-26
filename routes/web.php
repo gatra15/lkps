@@ -30,10 +30,18 @@ use App\Http\Controllers\TataPamongController;
 
 
 
-Route::get('/login', [LoginController::class, 'index']);
-Route::get('/login', [LoginController::class, 'authenticate']);
+Route::get('/', function () {
+    return view('home',[
+        "title" => "Home"
+    ]);
+})->middleware('auth');
+
+Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
+Route::post('/login', [LoginController::class, 'authenticate']);
 Route::post('/logout', [LoginController::class, 'logout']);
-Route::get('/', [SidebarController::class, 'home']);
+
+Route::get('/register', [RegisterController::class, 'index'])->middleware('guest');
+Route::post('/register', [RegisterController::class, 'store']);
 
 Route::get('/register',                             [RegisterController::class, 'index']);
 Route::get('/identitas-pengusul',                   [IdentitasPengusulController::class, 'index']);
@@ -48,3 +56,4 @@ Route::get('/penelitian',                           [PenelitianController::class
 Route::get('/pkm',                                  [PengabdianController::class, 'index']);
 Route::get('/luaran-capaian-tridharma',             [LuaranController::class, 'index']);
 Route::get('/matrik',                               [MatriksController::class, 'index']);
+
