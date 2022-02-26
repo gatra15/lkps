@@ -20,7 +20,7 @@
               </div>
               @endif
 
-            <form action="/" class="post">
+            <form action="/login" method="post">
                     @csrf
                   <div class="form-group">
                       <input type="email" name="email" id="email" class="form-control rounded-left @error('email') is-invalid @enderror" placeholder="name@example.com" autofocus required>

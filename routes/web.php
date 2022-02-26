@@ -31,7 +31,9 @@ use App\Http\Controllers\TataPamongController;
 
 
 Route::get('/login', [LoginController::class, 'index']);
-Route::get('/home', [SidebarController::class, 'home']);
+Route::get('/login', [LoginController::class, 'authenticate']);
+Route::post('/logout', [LoginController::class, 'logout']);
+Route::get('/', [SidebarController::class, 'home']);
 
 Route::get('/register',                             [RegisterController::class, 'index']);
 Route::get('/identitas-pengusul',                   [IdentitasPengusulController::class, 'index']);

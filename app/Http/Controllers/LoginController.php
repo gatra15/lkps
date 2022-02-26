@@ -21,8 +21,6 @@ class LoginController extends Controller
             'password' => 'required',
         ]);
 
-        dd('halo');
-
         if(Auth::attempt($credentials)) 
         {
             $request->session()->regenerate();
@@ -33,6 +31,17 @@ class LoginController extends Controller
             'email' => 'your email or password invalid',
             'password' => 'your email or password invalid'
         ]);
+    }
+
+    public function logout(){
+
+        Auth::logout();
+
+        request()->session()->invalidate();
+
+        request()->session()->regenerateToken();
+
+        return redirect('/');
     }
 
 
