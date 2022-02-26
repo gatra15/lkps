@@ -14,7 +14,11 @@
 
         <ul class="navbar-nav text-right  ml-auto flex-nowrap">
             <li class="nav-item">
-              <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-sign-out-alt"></i> Logout </a>
+              <form action="/logout" method="post"> 
+                  @csrf
+                <a type="submit" class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-sign-out-alt"></i> Logout </a>
+              </form>
+              
             </li>       
           </ul>
       </nav>
