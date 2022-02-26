@@ -28,9 +28,9 @@
       <aside class="main-sidebar sidebar-dark-primary elevation-4">
         <!-- Brand Logo -->
             <!-- Brand Logo -->
-            <a href="/home" class="brand-link">
+            <a href="/" class="brand-link">
               <img src="{{ asset('dist/img/AdminLTELogo.png') }}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-              <span class="brand-text font-weight-light">Sistem Informasi Akreditasi Program Studi Fakultas Teknik Universitas Diponegoro</span>
+              <span class="brand-text font-weight-light">LKPS</span>
             </a>
     
         <!-- Sidebar -->
@@ -55,7 +55,7 @@
               <!-- Add icons to the links using the .nav-icon class
                    with font-awesome or any other icon font library -->
               <li class="nav-item menu-open">
-                <a href="/home" class="nav-link {{ ($title === "Home") ? 'active' : '' }}">
+                <a href="/" class="nav-link {{ ($title === "Home") ? 'active' : '' }}">
                   <i class="nav-icon fas fa-home"></i>
                   <p>
                     Dashboard
