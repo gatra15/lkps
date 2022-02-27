@@ -17,7 +17,7 @@
         <li class="nav-item">
             <a class="nav-link active" href="#description" role="tab" aria-controls="description" aria-selected="true">IDENTITAS PENGUSUL</a>
         </li>
-                    </ul>
+    </ul>
 </div>
 <div class="card-body">
     <div class="tab-content mt-3">

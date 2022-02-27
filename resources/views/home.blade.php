@@ -2,10 +2,13 @@
 @extends('layouts.main')
 
 @section('content')
+<!-- JUDUL -->
 <div class="content-header">
     <div class="container-fluid">
         <h2>DASHBOARD</h2>
     </div>
+
+<!-- TAB -->
 </div>
 <div class="content">
     <div class="container-fluid">
@@ -17,6 +20,8 @@
             </li>
         </ul>
     </div>
+
+    <!-- ISI  -->
     <div class="card-body">
         <div class="tab-content mt-3">
             <div class="tab-pane active" id="dashboard" role="tabpanel">
@@ -47,8 +52,7 @@
         </div>
     </div>
 </div>
-    </div>
 </div>
-
+</div>
 </div>
 @endsection
