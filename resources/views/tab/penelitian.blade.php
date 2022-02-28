@@ -43,7 +43,32 @@
                             2) Bentuk integrasi dapat berupa tambahan materi perkuliahan, studi kasus, Bab/ Subbab dalam buku ajar, atau bentuk lain yang relevan.
                         </div> 
                     </div>
-                    <p>Penelitian DTPS yang Melibatkan Mahasiswa Tab</p>
+                    {{-- CONTENT --}}
+    
+<table class="table">
+    <thead>
+
+        <tr>
+            <th scope="col">No</th>
+            <th scope="col">Lembaga Mitra</th>
+            <th scope="col">Judul Kegiatan Kerjasama</th>
+            <th scope="col">Manfaat bagi PS yang Diakretasi</th>
+            <th scope="col">Waktu dan Durasi</th>
+            <th scope="col">Bukti Kerjasama</th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+        {{-- @foreach ($kerjasama as $kerja)
+        <tr>
+
+        </tr>
+        @endforeach --}}
+    </tbody>
+</table> 
+
+{{-- AKHIR CONTENT --}}
                 </div>
                 <div class="tab-pane fade" id="rujukan" role="tabpanel" aria-labelledby="rujukan-tab">
                     <p class="d-flex justify-content-between">
@@ -61,7 +86,32 @@
                             2) Bentuk integrasi dapat berupa tambahan materi perkuliahan, studi kasus, Bab/ Subbab dalam buku ajar, atau bentuk lain yang relevan.
                         </div> 
                     </div>
-                    <p>Penelitian DTPS yang menjadi rujukan tema tesis/disertasi</p>
+                    {{-- CONTENT --}}
+    
+<table class="table">
+    <thead>
+
+        <tr>
+            <th scope="col">No</th>
+            <th scope="col">Lembaga Mitra</th>
+            <th scope="col">Judul Kegiatan Kerjasama</th>
+            <th scope="col">Manfaat bagi PS yang Diakretasi</th>
+            <th scope="col">Waktu dan Durasi</th>
+            <th scope="col">Bukti Kerjasama</th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+        {{-- @foreach ($kerjasama as $kerja)
+        <tr>
+
+        </tr>
+        @endforeach --}}
+    </tbody>
+</table> 
+
+{{-- AKHIR CONTENT --}}
                 </div>
               </div>
         </div>

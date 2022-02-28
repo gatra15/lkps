@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Mahasiswa;
+use App\Models\MahasiswaAsing;
 use App\Http\Requests\StoreMahasiswaRequest;
 use App\Http\Requests\UpdateMahasiswaRequest;
 
@@ -15,8 +16,13 @@ class MahasiswaController extends Controller
      */
     public function index()
     {
+        $mahasiswa = Mahasiswa::all();
+        $mahasiswa_asing = Mahasiswa::all();
+        
         return view('tab.mahasiswa', [
             'title' => 'Mahasiswa',
+            'mahasiswa' => $mahasiswa,
+            'mahasiswa_asing' => $mahasiswa_asing,
         ]);
 
     }

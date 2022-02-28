@@ -54,7 +54,32 @@
                             </p>
                         </div> 
                     </div>
-                    <p>Dosen Tetap Tab</p>
+{{-- CONTENT --}}
+    
+<table class="table">
+    <thead>
+
+        <tr>
+            <th scope="col">No</th>
+            <th scope="col">Lembaga Mitra</th>
+            <th scope="col">Judul Kegiatan Kerjasama</th>
+            <th scope="col">Manfaat bagi PS yang Diakretasi</th>
+            <th scope="col">Waktu dan Durasi</th>
+            <th scope="col">Bukti Kerjasama</th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+        {{-- @foreach ($kerjasama as $kerja)
+        <tr>
+
+        </tr>
+        @endforeach --}}
+    </tbody>
+</table> 
+
+{{-- AKHIR CONTENT --}}
                 </div>
                 <div class="tab-pane fade" id="dosbing-ta" role="tabpanel" aria-labelledby="dosbingTA-tab">
                     <p class="d-flex justify-content-between">
@@ -72,7 +97,32 @@
                             </p>
                         </div> 
                     </div>
-                    <p>Dosen Pambimbing Utama TA Tab</p>
+{{-- CONTENT --}}
+    
+<table class="table">
+    <thead>
+
+        <tr>
+            <th scope="col">No</th>
+            <th scope="col">Lembaga Mitra</th>
+            <th scope="col">Judul Kegiatan Kerjasama</th>
+            <th scope="col">Manfaat bagi PS yang Diakretasi</th>
+            <th scope="col">Waktu dan Durasi</th>
+            <th scope="col">Bukti Kerjasama</th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+        {{-- @foreach ($kerjasama as $kerja)
+        <tr>
+
+        </tr>
+        @endforeach --}}
+    </tbody>
+</table> 
+
+{{-- AKHIR CONTENT --}}
                 </div>
                 <div class="tab-pane fade" id="ewmp" role="tabpanel" aria-labelledby="ewmp-tab">
                     <p class="d-flex justify-content-between">
@@ -90,7 +140,32 @@
                             </p>
                         </div> 
                     </div>
-                    <p>Dosen Tidak Tetap Tab</p>
+{{-- CONTENT --}}
+    
+<table class="table">
+    <thead>
+
+        <tr>
+            <th scope="col">No</th>
+            <th scope="col">Lembaga Mitra</th>
+            <th scope="col">Judul Kegiatan Kerjasama</th>
+            <th scope="col">Manfaat bagi PS yang Diakretasi</th>
+            <th scope="col">Waktu dan Durasi</th>
+            <th scope="col">Bukti Kerjasama</th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+        {{-- @foreach ($kerjasama as $kerja)
+        <tr>
+
+        </tr>
+        @endforeach --}}
+    </tbody>
+</table> 
+
+{{-- AKHIR CONTENT --}}
                 </div>
                 <div class="tab-pane fade" id="dosen-ttetap" role="tabpanel" aria-labelledby="dosTTetap-tab">
                     <p class="d-flex justify-content-between">
@@ -108,7 +183,32 @@
                             </p>
                         </div> 
                     </div>
-                    <p>EWMP Dosen Tetap Perguruan Tinggi Tab</p>
+{{-- CONTENT --}}
+    
+<table class="table">
+    <thead>
+
+        <tr>
+            <th scope="col">No</th>
+            <th scope="col">Lembaga Mitra</th>
+            <th scope="col">Judul Kegiatan Kerjasama</th>
+            <th scope="col">Manfaat bagi PS yang Diakretasi</th>
+            <th scope="col">Waktu dan Durasi</th>
+            <th scope="col">Bukti Kerjasama</th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+        {{-- @foreach ($kerjasama as $kerja)
+        <tr>
+
+        </tr>
+        @endforeach --}}
+    </tbody>
+</table> 
+
+{{-- AKHIR CONTENT --}}
                 </div>
                 <div class="tab-pane fade" id="dosen-industri" role="tabpanel" aria-labelledby="dosIndustri-tab">
                     <p class="d-flex justify-content-between">
@@ -126,7 +226,32 @@
                             </p>
                         </div> 
                     </div>
-                    <p>Dosen Industri/Praktisi Tab</p>
+{{-- CONTENT --}}
+    
+<table class="table">
+    <thead>
+
+        <tr>
+            <th scope="col">No</th>
+            <th scope="col">Lembaga Mitra</th>
+            <th scope="col">Judul Kegiatan Kerjasama</th>
+            <th scope="col">Manfaat bagi PS yang Diakretasi</th>
+            <th scope="col">Waktu dan Durasi</th>
+            <th scope="col">Bukti Kerjasama</th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+        {{-- @foreach ($kerjasama as $kerja)
+        <tr>
+
+        </tr>
+        @endforeach --}}
+    </tbody>
+</table> 
+
+{{-- AKHIR CONTENT --}}
                 </div>
               </div>
         </div>

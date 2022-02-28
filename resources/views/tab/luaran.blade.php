@@ -57,7 +57,32 @@
                             TS = Tahun akademik penuh terakhir saat pengajuan usulan akreditasi.
                         </div> 
                     </div>
-                    <p>Capaian Pembelajaran Tab</p>
+{{-- CONTENT --}}
+    
+<table class="table">
+    <thead>
+
+        <tr>
+            <th scope="col">No</th>
+            <th scope="col">Lembaga Mitra</th>
+            <th scope="col">Judul Kegiatan Kerjasama</th>
+            <th scope="col">Manfaat bagi PS yang Diakretasi</th>
+            <th scope="col">Waktu dan Durasi</th>
+            <th scope="col">Bukti Kerjasama</th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+        {{-- @foreach ($kerjasama as $kerja)
+        <tr>
+
+        </tr>
+        @endforeach --}}
+    </tbody>
+</table> 
+
+{{-- AKHIR CONTENT --}}
                 </div>
                 <div class="tab-pane fade" id="prestasi" role="tabpanel" aria-labelledby="prestasi-tab">
                     <p class="d-flex justify-content-between">
@@ -75,7 +100,32 @@
                             </p>
                         </div> 
                     </div>
-                    <p>Prestasi Mahasiswa Tab</p>
+{{-- CONTENT --}}
+    
+<table class="table">
+    <thead>
+
+        <tr>
+            <th scope="col">No</th>
+            <th scope="col">Lembaga Mitra</th>
+            <th scope="col">Judul Kegiatan Kerjasama</th>
+            <th scope="col">Manfaat bagi PS yang Diakretasi</th>
+            <th scope="col">Waktu dan Durasi</th>
+            <th scope="col">Bukti Kerjasama</th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+        {{-- @foreach ($kerjasama as $kerja)
+        <tr>
+
+        </tr>
+        @endforeach --}}
+    </tbody>
+</table> 
+
+{{-- AKHIR CONTENT --}}
                 </div>
                 <div class="tab-pane fade" id="efektifitas" role="tabpanel" aria-labelledby="efektifitas-tab">
                     <p class="d-flex justify-content-between">
@@ -95,7 +145,32 @@
                             </p>
                         </div> 
                     </div>
-                    <p>Efektivitas dan Produktivitas Pendidikan Tab</p>
+{{-- CONTENT --}}
+    
+<table class="table">
+    <thead>
+
+        <tr>
+            <th scope="col">No</th>
+            <th scope="col">Lembaga Mitra</th>
+            <th scope="col">Judul Kegiatan Kerjasama</th>
+            <th scope="col">Manfaat bagi PS yang Diakretasi</th>
+            <th scope="col">Waktu dan Durasi</th>
+            <th scope="col">Bukti Kerjasama</th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+        {{-- @foreach ($kerjasama as $kerja)
+        <tr>
+
+        </tr>
+        @endforeach --}}
+    </tbody>
+</table> 
+
+{{-- AKHIR CONTENT --}}
                 </div>
                 <div class="tab-pane fade" id="daya-saing" role="tabpanel" aria-labelledby="dayaSaing-tab">
                     <p class="d-flex justify-content-between">
@@ -113,7 +188,32 @@
                             </p>
                         </div> 
                     </div>
-                    <p>Daya Saing Lulusan Tab</p>
+{{-- CONTENT --}}
+    
+<table class="table">
+    <thead>
+
+        <tr>
+            <th scope="col">No</th>
+            <th scope="col">Lembaga Mitra</th>
+            <th scope="col">Judul Kegiatan Kerjasama</th>
+            <th scope="col">Manfaat bagi PS yang Diakretasi</th>
+            <th scope="col">Waktu dan Durasi</th>
+            <th scope="col">Bukti Kerjasama</th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+        {{-- @foreach ($kerjasama as $kerja)
+        <tr>
+
+        </tr>
+        @endforeach --}}
+    </tbody>
+</table> 
+
+{{-- AKHIR CONTENT --}}
                 </div>
                 <div class="tab-pane fade" id="kinerja" role="tabpanel" aria-labelledby="kinerja-tab">
                     <p class="d-flex justify-content-between">
@@ -135,7 +235,32 @@
                             </p>
                         </div> 
                     </div>
-                    <p>Kinerja Lulusan Tab</p>
+{{-- CONTENT --}}
+    
+<table class="table">
+    <thead>
+
+        <tr>
+            <th scope="col">No</th>
+            <th scope="col">Lembaga Mitra</th>
+            <th scope="col">Judul Kegiatan Kerjasama</th>
+            <th scope="col">Manfaat bagi PS yang Diakretasi</th>
+            <th scope="col">Waktu dan Durasi</th>
+            <th scope="col">Bukti Kerjasama</th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+        {{-- @foreach ($kerjasama as $kerja)
+        <tr>
+
+        </tr>
+        @endforeach --}}
+    </tbody>
+</table> 
+
+{{-- AKHIR CONTENT --}}
                 </div>
                 <div class="tab-pane fade" id="luaran" role="tabpanel" aria-labelledby="luaran-tab">
                     <p class="d-flex justify-content-between">
@@ -155,7 +280,32 @@
                             </p>
                         </div> 
                     </div>
-                    <p>Luaran Penelitian dan PkM Mahasiswa Tab</p>
+{{-- CONTENT --}}
+    
+<table class="table">
+    <thead>
+
+        <tr>
+            <th scope="col">No</th>
+            <th scope="col">Lembaga Mitra</th>
+            <th scope="col">Judul Kegiatan Kerjasama</th>
+            <th scope="col">Manfaat bagi PS yang Diakretasi</th>
+            <th scope="col">Waktu dan Durasi</th>
+            <th scope="col">Bukti Kerjasama</th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+        {{-- @foreach ($kerjasama as $kerja)
+        <tr>
+
+        </tr>
+        @endforeach --}}
+    </tbody>
+</table> 
+
+{{-- AKHIR CONTENT --}}
                 </div>
               </div>
         </div>
