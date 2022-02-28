@@ -2,6 +2,7 @@
 @extends('layouts.main')
 
 @section('content')
+<!-- JUDUL -->
 <div class="content-header">
     <div class="container-fluid">
             <h1>TATA PAMONG, TATA KELOLA, DAN KERJASAMA</h1>
@@ -19,6 +20,7 @@
         </li>
     </ul>
 </div>
+
 <div class="card-body">
     <div class="tab-content mt-3">
         <div class="tab-pane active" id="kerjasama" role="tabpanel">
@@ -45,7 +47,45 @@
                 </ol>
 
             </div> 
+
         </div>
     </div>
 
+    {{-- CONTENT --}}
+    
+    <table class="table">
+        <thead>
+
+            <tr>
+                <th scope="col">No</th>
+                <th scope="col">Lembaga Mitra</th>
+                <th scope="col">Judul Kegiatan Kerjasama</th>
+                <th scope="col">Manfaat bagi PS yang Diakretasi</th>
+                <th scope="col">Waktu dan Durasi</th>
+                <th scope="col">Bukti Kerjasama</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            @foreach ($kerjasama as $kerja)
+            <tr>
+                <td>{{ $kerja->id }}</td>
+                <td>{{ $kerja->lembaga_mitra }}</td>
+                <td>{{ $kerja->judul_kegiatan }}</td>
+                <td>{{ $kerja->manfaat }}</td>
+                <td>{{ $kerja->waktu_durasi }}</td>
+                <td>{{ $kerja->bukti_kerjasama }}</td>
+                <td>{{ $kerja->tahun_laporan }}</td>
+                <td>{{ $kerja->prodi }}</td>
+            </tr>
+            @endforeach
+        </tbody>
+    </table> 
+
+    {{-- AKHIR CONTENT --}}
+
+        </div>
+    </div>
+</div>
 @endsection

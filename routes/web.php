@@ -43,9 +43,13 @@ Route::post('/logout', [LoginController::class, 'logout']);
 Route::get('/register', [RegisterController::class, 'index'])->middleware('guest');
 Route::post('/register', [RegisterController::class, 'store']);
 
-Route::get('/identitas-pengusul',                   [IdentitasPengusulController::class, 'index'])->middleware('auth');
-Route::get('/tata-pamong-tata-kelola-kerjasama',    [TataPamongController::class, 'index'])->middleware('auth');
-Route::get('/mahasiswa',                            [MahasiswaController::class, 'index'])->middleware('auth');
+Route::get('/identitas-pengusul',[IdentitasPengusulController::class, 'index'])->middleware('auth');
+
+Route::get('/tata-pamong-tata-kelola-kerjasama',[TataPamongController::class, 'index'])->middleware('auth');
+// Route::get('/tata-pamong-tata-kelola-kerjasama', [TataPamongController::class, 'table']);
+
+Route::get('/mahasiswa',[MahasiswaController::class, 'index'])->middleware('auth');
+
 Route::get('/sdm',                                  [SdmController::class, 'index'])->middleware('auth');
 Route::get('/profil-dosen',                         [ProfilDosenController::class, 'index'])->middleware('auth');
 Route::get('/kinerja-dosen',                        [KinerjaDosenController::class, 'index'])->middleware('auth');
